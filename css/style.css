@@ -1,0 +1,43 @@
+body {
+  color: #110100;
+  font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.list-group-item a {
+  color: #110100;
+}
+
+.header__heading {
+  font-size: 55px;
+}
+
+.btn-primary {
+  background-color: #FF7F50;
+}
+
+.section-games-dark {
+  background-color: #343A40;
+}
+
+.section-games-dark__heading {
+  font-size: 30px;
+}
+
+.section-games-light {
+  background-color: #F8F9FA;
+  
+}
+
+.section-games-lt__heading {
+  font-size: 30px;
+  
+}
+
+.footer {
+  background-color: #343A40;
+}

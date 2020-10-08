@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>CSS-Frameworks</title>
+  </head>
+  <body>
+    <div class="wrapper container-fluid">
+      <header class="header container-fluid">
+        <div class="container">
+          <div class="header__top-plate pt-4 d-flex justify-content-between align-items-center mb-5">
+            <div>
+              <a href="#" class="logo text-dark text-decoration-none">Games</a>
+            </div>
+            <div class="col-sm-1 col-lg-8 text-right">
+              <nav class="navbar navbar-expand-lg navbar-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#pricing">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <button type="button" class="btn btn-sm btn-dark">Push to Start</button>
+                  </form>
+                </div>
+              </nav>
+            </div>
+          </div>
+          <div class="header__intro d-flex row">
+            <img src="assets/hero-5.jpg" alt="joystick" class="col-lg-7">
+            <div class="header__text-content pt-5 col-lg-5 order-lg-first mb-5">
+              <h1 class="header__heading mb-4 pt-4">Front-end Lab CSS-Frameworks</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+              </p>
+              <button type="button" class="btn btn-primary border-0">Find Out More</button>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="main container-fluid">
+        <section class="section-games-dark  container-fluid" id="features">
+          <div class="container text-center text-white  pt-4 pb-5 d-flex flex-column align-items-center">
+            <div class="col-sm-6">
+              <h2 class="section-games-dark__heading pt-5 mb-4">Games section</h2>
+              <p class="section-games-dark__sub-heading mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt.</p>
+            </div>
+            <div class="section-games__cards">
+              <div class="row">
+                <div class="section-games__cards-item col-sm-12 col-md-6 col-lg-4 mb-5">
+                  <img src="assets/card/1.jpg" class="img-fluid mb-3" alt="people of different professions">
+                  <h3>Card title</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+                <div class="section-games__cards-item col-sm-12 col-md-6 col-lg-4 mb-5">
+                  <img src="assets/card/2.jpg" class="img-fluid  mb-3" alt="people wearing vr glasses">
+                  <h3>Card title</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+                <div class="section-games__cards-item col-sm-12 col-md-6 col-lg-4 mb-5">
+                  <img src="assets/card/3.jpg" class="img-fluid  mb-3" alt="girl in virtual reality glasses">
+                  <h3>Card title</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+                <div class="section-games__cards-item col-sm-12 col-md-6 col-lg-4 mb-5">
+                  <img src="assets/card/4.jpg" class="img-fluid  mb-3" alt="joysticks of different types">
+                  <h3>Card title</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+                <div class="section-games__cards-item col-sm-12 col-md-6 col-lg-4 mb-5">
+                  <img src="assets/card/5.jpg" class="img-fluid  mb-3" alt="robots">
+                  <h3>Card title</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+                <div class="section-games__cards-item col-sm-12 col-md-6 col-lg-4 mb-5">
+                  <img src="assets/card/6.jpg" class="img-fluid  mb-3" alt="joysticks and game consoles">
+                  <h3>Card title</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section-games-light  container-fluid text-dark" id="pricing">
+          <div class="container text-center pt-5 pb-5 d-flex flex-column align-items-center">
+            <div class="col-sm-6">
+              <h2 class="section-games-lt__heading mb-4">Games section</h2>
+              <p class="section-games-lt__sub-heading mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="section-games__cards">
+              <div class="row">
+                <div class="section-light__card col-sm-12 col-lg-6 mb-4">
+                  <img src="assets/card/7.jpg" class="img-fluid  mb-3" alt="joysticks and game consoles">
+                  <h3 class="section-light__card-heading">Card title</h3>
+                  <p class="section-light__card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+                <div class="section-light__card col-sm-12 col-lg-6 mb-4">
+                  <img src="assets/card/8.jpg" class="img-fluid  mb-3" alt="kart racing cars">
+                  <h3>Card title</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+                <div class="section-light__card col-sm-12 col-lg-6 mb-4">
+                  <img src="assets/card/9.jpg" class="img-fluid  mb-3" alt="virtual reality elements">
+                  <h3>Card title</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+                <div class="section-light__card col-sm-12 col-lg-6 mb-4">
+                  <img src="assets/card/10.jpg" class="img-fluid  mb-3" alt="video game characters">
+                  <h3>Card title</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+                <div class="section-light__card col-sm-12 col-lg-6 mb-4">
+                  <img src="assets/card/11.jpg" class="img-fluid  mb-3" alt="two guys with vr glasses">
+                  <h3>Card title</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+                <div class="section-light__card col-sm-12 col-lg-6 mb-4">
+                  <img src="assets/card/12.jpg" class="img-fluid  mb-3" alt="gaming headset and equipment">
+                  <h3>Card title</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer container-fluid text-white pb-3">
+        <div class="container">
+          <div class="row">
+            <div class="footer__subscribe pt-4 col-sm-12 col-lg-6">
+              <p class="mb-2">Subscribe</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt.</p>
+            </div>
+            <div class="col-sm-12 col-lg-6 pt-4">
+              <form class="d-flex flex-column mb-4">
+                <input type="email" name="email" class="mb-2 text-black-50" placeholder="Email Address">
+                <input type="submit" name="submit" class="border-0 btn-primary">
+              </form>
+            </div>
+          </div>
+          <p class="footer__cr text-center">&copy;2020 Front-end Lab</p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
